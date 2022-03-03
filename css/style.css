@@ -126,7 +126,7 @@ footer {
   color: white;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .two {
@@ -136,7 +136,7 @@ footer {
   color: white;
   display: flex;
   flex-flow: row nowrap;
-  gap: 2px;
+  justify-content: space-evenly;
 }
 
 .three {
@@ -176,6 +176,10 @@ footer {
 .narrow {
   width: 13px;
   font-size: 15px;
+}
+
+.medium {
+  width: 30px;
 }
 
 .green {
