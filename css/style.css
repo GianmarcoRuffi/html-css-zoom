@@ -139,16 +139,36 @@ footer {
   width: 12%;
   height: 100%;
   background-color: coral;
+  color: white;
 }
 
 .two {
   width: 40%;
   height: 100%;
   background-color: aqua;
+  color: white;
 }
 
 .three {
   width: 8%;
   height: 100%;
   background-color: #4a4a4a;
+  color: red;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  background-color: #4a4a4a;
+  font-size: 30px;
+  height: 100%;
+  width: 80px;
+  text-align: center;
+}
+
+.btn > p {
+  font-size: 15px;
 }
