@@ -7,27 +7,11 @@
 
 /*General */
 
-@import url(//db.onlinewebfonts.com/c/c16f494de2b352a69ead71431b29a155?family=Kaleko205W00-Book);
-
-@font-face {
-  font-family: "Kaleko205W00-Book";
-  src: url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.eot");
-  src: url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/c16f494de2b352a69ead71431b29a155.svg#Kaleko205W00-Book")
-      format("svg");
-}
-
 body {
   scroll-behavior: smooth;
   font-family: "Kaleko205W00-Book";
   font-size: 14px;
+  font-family: "Lato", sans-serif;
 }
 
 .debug {
@@ -142,7 +126,7 @@ footer {
   color: white;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .two {
@@ -171,7 +155,7 @@ footer {
   background-color: #222222;
   font-size: 30px;
   height: 100%;
-  width: 70px;
+  width: 80px;
   display: flex;
   display: flex;
   justify-content: center;
@@ -186,7 +170,7 @@ footer {
 }
 
 .long {
-  width: 134px;
+  width: 144px;
 }
 
 .narrow {
